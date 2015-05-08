@@ -2,7 +2,11 @@
  * Created by Petter on 08.05.2015.
  */
 public class main {
-
+    /*
+    Easy to understand FizzBuzz implementation. RunCode is the main function, Three() checks if the number is divisible
+    by three, and return true or false. Same for Five() with the number five. RunCode uses both functions and outputs
+    "Fizz", "Buzz" or "FizzBuzz" depending on the true / false values.
+     */
     public void RunCode() {
         for (int i = 1; i <101; i++) {
             if (Three(i) && Five(i)) {
